@@ -6,7 +6,8 @@ Assignment Documentation<a name="TOP"></a>
 
     1) Clone repository on the system
     2) Open the terminal and Direct towards root folder
-    3) Execute Nodemon
+    3) Execute npm install to install required node packages
+    4) Execute Nodemon
     
     The server will start on port 5000.
 
