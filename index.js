@@ -1,5 +1,6 @@
 import Express from 'express'
 import mongoose  from 'mongoose';
+import { url } from './keys.js';
 import translateRouter from './routers/translateRouter.js';
 
 
@@ -7,7 +8,7 @@ const app=Express();
 app.use(Express.json());
 app.use(Express.urlencoded({ extended: true }));
 
-mongoose.connect( "mongodb+srv://abhinav:abhinav@cluster0.qzukv.mongodb.net/UserService?retryWrites=true&w=majority", {
+mongoose.connect( url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }).then(()=>console.log('DB Connected'))
