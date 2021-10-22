@@ -1,1 +1,1 @@
-export const url = "mongodb+srv://abhinav:abhinav@cluster0.qzukv.mongodb.net/UserService?retryWrites=true&w=majority";
+export const url = URL_TO_BE_PASTED;
